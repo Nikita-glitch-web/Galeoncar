@@ -1,0 +1,171 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #e5e5e5;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+ul,
+ol,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.header-wrapper {
+  background: #15171e;
+  max-width: 1700px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.sub-text {
+  font-family: "Gilroy" sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.lion-face {
+  width: 87px;
+  height: 91px;
+  filter: invert(1);
+}
+
+.row {
+  width: 20px;
+  height: 4px;
+  color: white;
+  padding-left: 10px;
+}
+
+.title {
+  font-family: "Palatino Linotype";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29.334px;
+  line-height: 30px;
+  letter-spacing: 1.62967px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.left-part {
+  display: flex;
+  padding-top: 10px;
+}
+
+.header-content-box {
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.title-box {
+  padding-left: 15px;
+}
+
+.nav-button {
+  font-family: "Gilroy" sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.8;
+  width: 161px;
+  height: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+
+.nav-button:hover {
+  color: #edc5a2;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  margin-left: 30px;
+}
+
+.big-row {
+  color: #edc5a2;
+  text-align: right;
+  padding-left: 25px;
+  display: inline-block;
+  padding-top: 0px;
+}
+
+.big-row-box {
+  margin-top: 5px;
+}
+
+.page-nav {
+  margin-left: 20px;
+  display: flex;
+
+  padding-top: 20px;
+}
+
+.icons-box {
+  padding-left: 70px;
+  padding-top: 7px;
+}
+
+.icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.company-phone-text {
+  font-family: "Gilroy" sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  letter-spacing: 0.05em;
+  color: #edc5a2;
+}
+
+.company-phone-row {
+  padding-left: 23px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-btn {
+  border: 0.737705px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5.90164px;
+  width: 100px;
+  height: 40px;
+  font-family: "Gilroy" sans-serif;
+  background: none;
+  color: white;
+  text-align: center;
+}
+
+.left-btn-last {
+  margin-left: 10px;
+}
